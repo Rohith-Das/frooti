@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "merivaregular";
+}
+
+.navbar-header {
+    width: 100%;
+    display: flex;
+    height: 70px;
+    background-color: #0a0b27;
+    position: fixed;
+    z-index: 2;
+    
+
+}
+
+.navbar-left {
+    width: 360px;
+    height: 70px;
+
+
+}
+
+.frootilogo {
+    height: 26px;
+    padding-top: 26px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.navbar-right{
+    width: 100%;
+ 
+   
+}
+li {
+    font-size: 18px;
+}
+.navbar-ul{
+    display: flex;
+   list-style: none;
+   justify-content: space-evenly;
+   cursor: pointer;
+}
+.navbar-ul,li{
+    color: #fff;
+    padding-top: 10px;
+    
+    
+}
+span{
+    color: #fff;
+    margin-top: 7px;
+    
+}
+.home-li{
+    width: 70px;
+height: 70px;
+display: flex;
+padding-left: 60px;
+}
+.home-li,li:hover{
+    color:  #e53f27;   
+}
+.company-li{
+    display: flex;
+    width: 100px;
+    height: 70px;
+    
+}
+.company-li,li:hover{
+    color: #e53f27;
+}
+.brand-li{
+    display: flex;
+    width: 90px;
+    height: 60px;
+}
+.brand-li,li:hover{
+    color:  #e53f27;
+}
+.business-li{
+    display: flex;
+    width: 90px;
+    height: 60px;
+}
+.business-li,li:hover{
+    color:   #e53f27;
+}
+.news-li{
+    display: flex;
+    width: 120px;
+    height: 70px;
+    
+}
+.news-li,li:hover{
+    color:  #e53f27;
+}
+.sus-li{
+    display: flex;
+    width: 92px;
+    height: 70px;
+    
+}
+.sus-li,li:hover{
+    color: #e53f27;
+}
+.careers-li{
+    display: flex;
+    width: 70px;
+    height:70px ;
+}
+.careers-li,li:hover{
+    color:  #e53f27;
+}
+.contact-li{
+    width: 82px;
+    height: 70px;
+    display: flex;
+}
+.contact-li,li:hover{
+    color: #e53f27;
+}
+
+.navbar-ul{
+    margin-top: 5px;
+}
+/* dropdown */
+
+.dropdown-company{
+    margin-top: 50px;
+    
+
+}
+
+
+#banner1 {
+
+    width: 100%;
+
+
+}
+
+.twoside {
+
+    margin: 0;
+    width: 100%;
+    display: flex;
+   
+
+}
+
+
+.animation {
+  position:relative;
+    
+    display: flex;
+    background: rgb(240, 145, 48);
+    height: 1317px;
+    width: 50%;
+    margin-top: -5px;
+    text-align: center;
+    color: #fff;
+
+
+}
+
+#spin {
+    position: absolute;
+    transform: rotate(90deg);
+    width: 200px;
+    height: 500px;
+    margin-left: 40%;
+    margin-top: 49%;
+   
+
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+#spin:hover{
+    /* -webkit-transform: rotate(360deg) translateZ(0); */
+    animation: rotate 5s linear infinite;
+
+}
+
+h1 {
+
+    font-size: 80px;
+    letter-spacing: 3px;
+    margin-top: 450px;
+    margin-left: 140px;
+    z-index: 1;
+
+
+}
+
+#content {
+    width: 50%;
+    background-color: #fff;
+
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 100px;
+
+
+
+
+
+}
+
+#content p {
+    font-family: "merivaregular";
+    font-size: 24px;
+    line-height: 1.2;
+
+}
+
+#lastimg {
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    margin-top: 0;
+}
+
+.master-footer {
+    display: flex;
+    margin-top: 15px;
+    padding-top: 40px;
+    justify-content: space-between;
+    padding-left: 60px;
+    height: 250px;
+
+
+
+}
+
+.first-footer {
+
+
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.second-footer {
+    width: 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.third-footer {
+    width: 33.33%;
+
+}
+
+a {
+    color: #0a0b27;
+    text-decoration: none;
+}
+
+.social-media {
+    width: 180px;
+    justify-content: center;
+    height: 10px;
+
+}
+
+.social-media-footer {
+    margin-top: 20px;
+    width: 180px;
+    justify-content: center;
+
+}
+
+.in {
+    width: 34px;
+}
+a:hover{
+     color: #e53f27;;
+
+}
+
